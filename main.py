@@ -21,7 +21,7 @@ while choice!='q':
         cmd = 'python3 LineCounter.py -p {} -c {}'.format(file_path, choice)
         os.system(cmd)
     elif choice == '2':
-        print('\nCount Lines for a Folder')
+        print('\nCount Lines for a File')
         file_path = input("\nPlease input file path: \n")
         cmd = 'python3 LineCounter.py -p {} -c {}'.format(file_path, choice)
         os.system(cmd)
